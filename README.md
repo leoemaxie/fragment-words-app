@@ -1,17 +1,17 @@
-# Tip Calculator
+# Fragment Words App
 
 ## Overview
-A simple android app that calculates the tip a user should pay based on the bill (cost of service) and the tip percent.
+A simple android app that gives a random list of word starting with a letter as selected by the user. Furthermore, users have the ability to search for a word they click on on their web browser. This is a continuation of [words-app](https://github.com/leoemaxie/words-app) using Fragments instead of Activities.
 
 ## What I learnt
-* Responding to keyboard input.
-* Using Googles's Material Library.
-* Various methods and attributes of the following Android views: ImageView, RadioButton and Switch.
-* Customizing styles and extending Google's Material Library.
-* Formatting Currency.
+* Using Fragments instead of Activities.
+* Writing adapters for Fragments and RecyclerView.
+* Using Navigation and ensuring safety through safeargs.
+* Navigating between different fragments.
+* Customizing the menu.
 
 ## Building the App
-This project was built using gradle 8.1.* and JVM 11
+This project was built using gradle 8.1.* and JVM 11.
 
 ## Authors
 [Leo Emaxie](https://github.com/leoemaxie)
